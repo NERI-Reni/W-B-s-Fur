@@ -30,7 +30,7 @@
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     header {
         height: 100px;
         font-size: 17px;
@@ -59,7 +59,7 @@
     }
     h1 {
         font-size: 22px;
-        margin-top: -8px;
+        margin-top: 20px;
     }
 
 }
