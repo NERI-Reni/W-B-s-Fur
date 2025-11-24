@@ -7,7 +7,7 @@
 }
 
 
-@media (max-width: 2000px) {
+@media  (min-width: 900px)  {
     main{
         font-size: 22px;
     }
@@ -34,6 +34,8 @@
     header {
         height: 100px;
         font-size: 17px;
+        background-color: #070D59; 
+        align-content: center;  
     }
     nav{
         margin-bottom: 15px;
@@ -41,6 +43,7 @@
     footer {
         height: 100px;
         font-size: 15px;
+        background-color: #070D59;   
     }
     
     img {
@@ -64,7 +67,7 @@
 header{
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
      
     
 }
