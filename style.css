@@ -31,6 +31,9 @@
     .logo {
          width: 200px;
     }
+    .arrow {
+        height: 50px;
+     }
 
 
 }
@@ -76,6 +79,9 @@
         font-size: 22px;
         margin-top: 20px;
     }
+    .arrow {
+        height: 25px;
+     }
 
 }
 
@@ -205,6 +211,4 @@ h3{
     color: #5893D4;
  }
 
-.arrow {
-     height: 50px;
- }
+
