@@ -1,194 +1,223 @@
- body 
-        {
-    background-color: #F7b633;
-    padding: 0;
-    margin: 0;
-    
-}
+ body {
+     background: linear-gradient(145deg, #070D59, #F7b633, #5893D4);
+
+     padding: 0;
+     margin: 0;
+
+ }
 
 
-@media  (min-width: 800px)  {
-    main{
-        font-size: 22px;
-    }
-    header {
-        background-color: #070D59;    
-        font-size: 25px;
-        height: 200px ;
-    }
-    h1{
-        float: right; 
-        padding-top: 30px; 
-    }
-    nav{
-        padding-top: 50px;  
-    }
-    footer {
-        background-color: #070D59;    
-        font-size: 25px;
-        padding: 50px 25px;
-    }
-    .logo {
+ @media (min-width: 800px) {
+     main {
+         font-size: 22px;
+     }
+
+     header {
+        background: linear-gradient(170deg, #070D59, #070D59, #F7b633);
+         font-size: 25px;
+         height: 200px;
+     }
+
+     h1 {
+         float: right;
+         padding-top: 30px;
+     }
+
+     nav {
+         padding-top: 50px;
+     }
+
+     footer {
+         background: linear-gradient(150deg, #070D59, #5893D4, #5893D4);
+         font-size: 25px;
+         padding: 50px 25px;
+
+
+     }
+
+     .logo {
          width: 200px;
-    }
-    .arrow {
-        height: 50px;
+     }
+
+     .arrow {
+         height: 50px;
      }
 
 
-}
+ }
 
-@media (max-width: 800px) {
-    header {
-        height: 100px;
-        font-size: 17px;
-        background-color: #070D59; 
-        align-content: center;  
-    }
-    nav{
-        margin-bottom: 15px;
-    }
-    footer {
-        height: 50px;
-        font-size: 15px;
-        background-color: #070D59;
-        padding: 30px 15px;   
-    }
-    
-    img {
-        height: 100px;
-    }
-    .image1 {
-        width: 150px;
-        height: 100px;
-    }
-    .image2 {
-        width: 150px;
-        height: 100px;
-    }
-    .image3 {
-         width: 150px;
+ @media (max-width: 800px) {
+     header {
          height: 100px;
-    }
-
-    .image4 {
-         width: 150px;
-         height: 100px;
-    }
-    h1 {
-        font-size: 22px;
-        margin-top: 20px;
-    }
-    .arrow {
-        height: 25px;
+         font-size: 17px;
+         background: linear-gradient(160deg,  #070D59, #070D59, #070D59);
+         align-content: center;
      }
 
-}
+     nav {
+         margin-bottom: 15px;
+     }
 
-header{
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-     
-    
-}
+     footer {
+         height: 50px;
+         font-size: 15px;
+         background: linear-gradient(150deg, #070D59, #5893D4, #5893D4);
+         padding: 30px 15px;
+     }
+
+     img {
+         height: 100px;
+     }
+
+     .image1 {
+         width: 150px;
+         height: 100px;
+     }
+
+     .image2 {
+         width: 150px;
+         height: 100px;
+     }
+
+     .image3 {
+         width: 150px;
+         height: 100px;
+     }
+
+     .image4 {
+         width: 150px;
+         height: 100px;
+     }
+
+     h1 {
+         font-size: 22px;
+         margin-top: 20px;
+     }
+
+     .arrow {
+         height: 25px;
+     }
+
+ }
+
+ header {
+     display: flex;
+     align-content: center;
+     justify-content: space-evenly;
+
+
+ }
 
 
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-}
+ nav ul li {
+     list-style: none;
+     display: inline-block;
+ }
 
-nav ul li a{
-    text-decoration: none;
-    color: blue;
-    padding: 0 75px;
-}
-#home{
-    color:#F7b633
-}
-#about{
-    color:#F7b633
-}
+ nav ul li a {
+     text-decoration: none;
+     color: blue;
+     padding: 0 75px;
+ }
+
+ #home {
+     background: linear-gradient(to right, #F7b633, #F7b633, rgb(175, 230, 255), #F7b633, #F7b633);
+     background-size: 200%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: animate-gradient 10s linear infinite
+ }
+
+ @keyframes animate-gradient {
+     to {
+         background-position: 200%;
+     }
+ }
+
+ #about {
+     color: #F7b633
+ }
 
 
-main{
-    position: relative;
-    top: 0;
-    
-    height: auto;
-    max-width: 1200px;
-    padding: 10%;
-    
-}
+ main {
+     position: relative;
+     top: 0;
+
+     height: auto;
+     max-width: 1200px;
+     padding: 10%;
+
+ }
 
 
 
 
-footer{
-    position: relative;
-    bottom: 0;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-}
+ footer {
+     position: relative;
+     bottom: 0;
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+ }
 
-.rights{
-    display: inline;
-}
+ .rights {
+     display: inline;
+ }
 
-.up{
-    display: inline;
-    
-}
-    
+ .up {
+     display: inline;
 
-h1{ 
-    background: linear-gradient(to right, #F7b633, #5893D4, #F7b633) ;
-    background-size: 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate-gradient 5s linear infinite
+ }
 
-}
 
-@keyframes animate-gradient{
-    to{
-        background-position: 200%;}}
+ h1 {
+     background: linear-gradient(to right, #F7b633, #5893D4, #F7b633);
+     background-size: 200%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: animate-gradient 5s linear infinite
+ }
 
-h2{
-    margin-bottom: 10%;
-    display: inline;
-    background-color: #5893D4;
-    border: 2px solid;
-    border-radius: 10px 10px;
-    padding: 7px 12px;
-}
+ @keyframes animate-gradient {
+     to {
+         background-position: 200%;
+     }
+ }
 
-h3{
-    display: inline;
-}
+ h2 {
+     margin-bottom: 10%;
+     display: inline;
+     background-color: #5893D4;
+     border: 2px solid;
+     border-radius: 10px 10px;
+     padding: 7px 12px;
+ }
 
-.image1{
-    float: left;
-    margin: 15px;
-    width: 400px;
-    height: 250px;
-    border: 2px solid;
-}
+ h3 {
+     display: inline;
+ }
 
-.image2{
-    float: right;
-    margin: 10px 15px;
-    width: 400px;
-    height: 250px;
-    border: 2px solid;
+ .image1 {
+     float: left;
+     margin: 15px;
+     width: 400px;
+     height: 250px;
+     border: 2px solid;
+ }
 
-}
+ .image2 {
+     float: right;
+     margin: 10px 15px;
+     width: 400px;
+     height: 250px;
+     border: 2px solid;
 
-.image3 {
+ }
+
+ .image3 {
      margin: 15px;
      width: 400px;
      height: 250px;
@@ -202,13 +231,11 @@ h3{
      border: 2px solid;
  }
 
-.first{
-    padding-bottom: 50px;
-    padding-top: 25px;
-}
-
- .rights{
-    color: #5893D4;
+ .first {
+     padding-bottom: 50px;
+     padding-top: 25px;
  }
 
-
+ .rights {
+     color: #5893D4;
+ }
