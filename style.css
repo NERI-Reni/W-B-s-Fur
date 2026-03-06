@@ -121,7 +121,7 @@
      padding: 0 75px;
  }
 
- #home {
+ #home #about{
      background: linear-gradient(to right, #F7b633, #F7b633, rgb(175, 230, 255), #F7b633, #F7b633);
      background-size: 200%;
      background-clip: text;
@@ -135,11 +135,6 @@
          background-position: 200%;
      }
  }
-
- #about {
-     color: #F7b633
- }
-
 
  main {
      position: relative;
