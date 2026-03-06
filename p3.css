@@ -12,7 +12,7 @@
      }
 
      header {
-         background-color: #070D59;
+         background: linear-gradient(#070D59, #070D59, #1f3c88);
          font-size: 25px;
          height: 200px;
      }
@@ -27,7 +27,7 @@
      }
 
      footer {
-         background-color: #070D59;
+         background: linear-gradient( #1f3c88, #070D59, #070D59);
          font-size: 25px;
          padding: 50px 25px;
      }
@@ -46,7 +46,7 @@
      header {
          height: 100px;
          font-size: 17px;
-         background-color: #070D59;
+         background: linear-gradient(#070D59, #070D59, #1f3c88);
          align-content: center;
      }
 
@@ -57,7 +57,7 @@
      footer {
          height: 50px;
          font-size: 15px;
-         background-color: #070D59;
+         background: linear-gradient( #1f3c88, #070D59, #070D59);
          padding: 30px 15px;
      }
 
@@ -98,8 +98,20 @@
  }
 
  #contact_us {
-     color: #F7b633
+      background: linear-gradient(to right, #F7b633, #F7b633, rgb(175, 230, 255), #F7b633, #F7b633);
+     background-size: 200%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: animate-gradient 10s linear infinite
  }
+
+ @keyframes animate-gradient {
+     to {
+         background-position: 200%;
+     }
+ }
+ 
 
  main {
      position: relative;
